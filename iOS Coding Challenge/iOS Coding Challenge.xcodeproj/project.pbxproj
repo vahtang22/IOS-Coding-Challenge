@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372F00CD2404557100390F43 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F00CC2404557100390F43 /* NotificationService.swift */; };
+		372F00D524046E1900390F43 /* iOS_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F00D424046E1900390F43 /* iOS_Coding_ChallengeTests.swift */; };
+		372F00DE240471DF00390F43 /* MockAudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F00DD240471DF00390F43 /* MockAudioPlayerService.swift */; };
+		372F00E0240477A600390F43 /* MockRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F00DF240477A600390F43 /* MockRecordingService.swift */; };
+		373078A623FEEFE200B4BD7F /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373078A523FEEFE200B4BD7F /* AudioPlayerService.swift */; };
+		373078AD23FF028A00B4BD7F /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373078AC23FF028A00B4BD7F /* Date+Format.swift */; };
+		37314401240173DA00D9C466 /* AppStateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37314400240173DA00D9C466 /* AppStateService.swift */; };
+		37745AB224028BEB00E98BA4 /* RecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37745AB124028BEB00E98BA4 /* RecordingService.swift */; };
+		37745ABC2402F9AB00E98BA4 /* PauseableTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37745ABB2402F9AB00E98BA4 /* PauseableTimer.swift */; };
+		379A1B0023FECEE4007C3119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A1AFF23FECEE4007C3119 /* AppDelegate.swift */; };
+		379A1B0223FECEE4007C3119 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A1B0123FECEE4007C3119 /* SceneDelegate.swift */; };
+		379A1B0923FECEE6007C3119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379A1B0823FECEE6007C3119 /* Assets.xcassets */; };
+		379A1B0C23FECEE6007C3119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379A1B0A23FECEE6007C3119 /* LaunchScreen.storyboard */; };
+		379A1B1723FECFAA007C3119 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A1B1623FECFAA007C3119 /* MainViewController.swift */; };
+		379A1B1A23FED0C6007C3119 /* UIView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A1B1923FED0C6007C3119 /* UIView+Add.swift */; };
+		379A1B1C23FED0F6007C3119 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A1B1B23FED0F6007C3119 /* MainView.swift */; };
+		379A1B1E23FED508007C3119 /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A1B1D23FED508007C3119 /* MainConfigurator.swift */; };
+		379A1B2023FED630007C3119 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A1B1F23FED630007C3119 /* MainPresenter.swift */; };
+		379A1B2223FED85C007C3119 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A1B2123FED85C007C3119 /* MainInteractor.swift */; };
+		379A1B2623FEDBC3007C3119 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A1B2523FEDBC3007C3119 /* Constants.swift */; };
+		379E90882401617C0033106C /* alarm.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 373078A823FEF23C00B4BD7F /* alarm.mp4 */; };
+		379E9089240161860033106C /* nature.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 373078A923FEF23C00B4BD7F /* nature.mp4 */; };
+		3F21C4905EC2363D595D1D00 /* Pods_iOS_Coding_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91C815A67D320EC40A18710 /* Pods_iOS_Coding_Challenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		372F00D724046E1900390F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379A1AF423FECEE3007C3119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 379A1AFB23FECEE4007C3119;
+			remoteInfo = "iOS Coding Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		372F00CC2404557100390F43 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		372F00D224046E1800390F43 /* iOS Coding ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Coding ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372F00D424046E1900390F43 /* iOS_Coding_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Coding_ChallengeTests.swift; sourceTree = "<group>"; };
+		372F00D624046E1900390F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372F00DD240471DF00390F43 /* MockAudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAudioPlayerService.swift; sourceTree = "<group>"; };
+		372F00DF240477A600390F43 /* MockRecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRecordingService.swift; sourceTree = "<group>"; };
+		373078A523FEEFE200B4BD7F /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		373078A823FEF23C00B4BD7F /* alarm.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = alarm.mp4; sourceTree = "<group>"; };
+		373078A923FEF23C00B4BD7F /* nature.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nature.mp4; sourceTree = "<group>"; };
+		373078AC23FF028A00B4BD7F /* Date+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		37314400240173DA00D9C466 /* AppStateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateService.swift; sourceTree = "<group>"; };
+		37745AB124028BEB00E98BA4 /* RecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingService.swift; sourceTree = "<group>"; };
+		37745AB32402AE4900E98BA4 /* iOS Coding Challenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS Coding Challenge.entitlements"; sourceTree = "<group>"; };
+		37745ABB2402F9AB00E98BA4 /* PauseableTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseableTimer.swift; sourceTree = "<group>"; };
+		379A1AFC23FECEE4007C3119 /* iOS Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379A1AFF23FECEE4007C3119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		379A1B0123FECEE4007C3119 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		379A1B0823FECEE6007C3119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		379A1B0B23FECEE6007C3119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		379A1B0D23FECEE6007C3119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379A1B1623FECFAA007C3119 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		379A1B1923FED0C6007C3119 /* UIView+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Add.swift"; sourceTree = "<group>"; };
+		379A1B1B23FED0F6007C3119 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		379A1B1D23FED508007C3119 /* MainConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
+		379A1B1F23FED630007C3119 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		379A1B2123FED85C007C3119 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		379A1B2523FEDBC3007C3119 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		60AA79D910B3294884302E72 /* Pods-iOS Coding Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Coding Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Coding Challenge/Pods-iOS Coding Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		7B38B4A8AD14095413431211 /* Pods-iOS Coding Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Coding Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Coding Challenge/Pods-iOS Coding Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		E91C815A67D320EC40A18710 /* Pods_iOS_Coding_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Coding_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372F00CF24046E1800390F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379A1AF923FECEE4007C3119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F21C4905EC2363D595D1D00 /* Pods_iOS_Coding_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1824B53C6E1152BFDC1EB05C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E91C815A67D320EC40A18710 /* Pods_iOS_Coding_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		372F00D324046E1800390F43 /* iOS Coding ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				372F00DC240471BE00390F43 /* Mocks */,
+				372F00D424046E1900390F43 /* iOS_Coding_ChallengeTests.swift */,
+				372F00D624046E1900390F43 /* Info.plist */,
+			);
+			path = "iOS Coding ChallengeTests";
+			sourceTree = "<group>";
+		};
+		372F00DC240471BE00390F43 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				372F00DD240471DF00390F43 /* MockAudioPlayerService.swift */,
+				372F00DF240477A600390F43 /* MockRecordingService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		373078A723FEF23000B4BD7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				373078A823FEF23C00B4BD7F /* alarm.mp4 */,
+				373078A923FEF23C00B4BD7F /* nature.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37745AB42402F46C00E98BA4 /* PausableTimer */ = {
+			isa = PBXGroup;
+			children = (
+				37745ABB2402F9AB00E98BA4 /* PauseableTimer.swift */,
+			);
+			path = PausableTimer;
+			sourceTree = "<group>";
+		};
+		379A1AF323FECEE3007C3119 = {
+			isa = PBXGroup;
+			children = (
+				379A1AFE23FECEE4007C3119 /* iOS Coding Challenge */,
+				372F00D324046E1800390F43 /* iOS Coding ChallengeTests */,
+				379A1AFD23FECEE4007C3119 /* Products */,
+				A837680DAD738C9027756E4E /* Pods */,
+				1824B53C6E1152BFDC1EB05C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		379A1AFD23FECEE4007C3119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				379A1AFC23FECEE4007C3119 /* iOS Coding Challenge.app */,
+				372F00D224046E1800390F43 /* iOS Coding ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		379A1AFE23FECEE4007C3119 /* iOS Coding Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				37745AB32402AE4900E98BA4 /* iOS Coding Challenge.entitlements */,
+				373078A723FEF23000B4BD7F /* Resources */,
+				379A1B2423FEDBB3007C3119 /* Common */,
+				379A1B2323FEDB09007C3119 /* Service */,
+				379A1B1823FED0B6007C3119 /* Extensions */,
+				379A1B1423FECF85007C3119 /* Module */,
+				379A1B1323FECEEF007C3119 /* Application */,
+				379A1B0823FECEE6007C3119 /* Assets.xcassets */,
+				379A1B0A23FECEE6007C3119 /* LaunchScreen.storyboard */,
+				379A1B0D23FECEE6007C3119 /* Info.plist */,
+			);
+			path = "iOS Coding Challenge";
+			sourceTree = "<group>";
+		};
+		379A1B1323FECEEF007C3119 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				379A1AFF23FECEE4007C3119 /* AppDelegate.swift */,
+				379A1B0123FECEE4007C3119 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		379A1B1423FECF85007C3119 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				379A1B1523FECF8B007C3119 /* Main */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		379A1B1523FECF8B007C3119 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				379A1B1623FECFAA007C3119 /* MainViewController.swift */,
+				379A1B1B23FED0F6007C3119 /* MainView.swift */,
+				379A1B1D23FED508007C3119 /* MainConfigurator.swift */,
+				379A1B1F23FED630007C3119 /* MainPresenter.swift */,
+				379A1B2123FED85C007C3119 /* MainInteractor.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		379A1B1823FED0B6007C3119 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				379A1B1923FED0C6007C3119 /* UIView+Add.swift */,
+				373078AC23FF028A00B4BD7F /* Date+Format.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		379A1B2323FEDB09007C3119 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				373078A523FEEFE200B4BD7F /* AudioPlayerService.swift */,
+				37314400240173DA00D9C466 /* AppStateService.swift */,
+				37745AB124028BEB00E98BA4 /* RecordingService.swift */,
+				372F00CC2404557100390F43 /* NotificationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		379A1B2423FEDBB3007C3119 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				37745AB42402F46C00E98BA4 /* PausableTimer */,
+				379A1B2523FEDBC3007C3119 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A837680DAD738C9027756E4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B38B4A8AD14095413431211 /* Pods-iOS Coding Challenge.debug.xcconfig */,
+				60AA79D910B3294884302E72 /* Pods-iOS Coding Challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372F00D124046E1800390F43 /* iOS Coding ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372F00D924046E1900390F43 /* Build configuration list for PBXNativeTarget "iOS Coding ChallengeTests" */;
+			buildPhases = (
+				372F00CE24046E1800390F43 /* Sources */,
+				372F00CF24046E1800390F43 /* Frameworks */,
+				372F00D024046E1800390F43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372F00D824046E1900390F43 /* PBXTargetDependency */,
+			);
+			name = "iOS Coding ChallengeTests";
+			productName = "iOS Coding ChallengeTests";
+			productReference = 372F00D224046E1800390F43 /* iOS Coding ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		379A1AFB23FECEE4007C3119 /* iOS Coding Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379A1B1023FECEE6007C3119 /* Build configuration list for PBXNativeTarget "iOS Coding Challenge" */;
+			buildPhases = (
+				79BA35810CA0E7C3ECA6DF50 /* [CP] Check Pods Manifest.lock */,
+				379A1AF823FECEE4007C3119 /* Sources */,
+				379A1AF923FECEE4007C3119 /* Frameworks */,
+				379A1AFA23FECEE4007C3119 /* Resources */,
+				29B0F322E801557AC8154D25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Coding Challenge";
+			productName = "iOS Coding Challenge";
+			productReference = 379A1AFC23FECEE4007C3119 /* iOS Coding Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		379A1AF423FECEE3007C3119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Max Ivanets";
+				TargetAttributes = {
+					372F00D124046E1800390F43 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 379A1AFB23FECEE4007C3119;
+					};
+					379A1AFB23FECEE4007C3119 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 379A1AF723FECEE3007C3119 /* Build configuration list for PBXProject "iOS Coding Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 379A1AF323FECEE3007C3119;
+			productRefGroup = 379A1AFD23FECEE4007C3119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				379A1AFB23FECEE4007C3119 /* iOS Coding Challenge */,
+				372F00D124046E1800390F43 /* iOS Coding ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372F00D024046E1800390F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379A1AFA23FECEE4007C3119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379A1B0C23FECEE6007C3119 /* LaunchScreen.storyboard in Resources */,
+				379A1B0923FECEE6007C3119 /* Assets.xcassets in Resources */,
+				379E90882401617C0033106C /* alarm.mp4 in Resources */,
+				379E9089240161860033106C /* nature.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29B0F322E801557AC8154D25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS Coding Challenge/Pods-iOS Coding Challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Coding Challenge/Pods-iOS Coding Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BA35810CA0E7C3ECA6DF50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Coding Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372F00CE24046E1800390F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372F00D524046E1900390F43 /* iOS_Coding_ChallengeTests.swift in Sources */,
+				372F00DE240471DF00390F43 /* MockAudioPlayerService.swift in Sources */,
+				372F00E0240477A600390F43 /* MockRecordingService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379A1AF823FECEE4007C3119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379A1B1A23FED0C6007C3119 /* UIView+Add.swift in Sources */,
+				379A1B1723FECFAA007C3119 /* MainViewController.swift in Sources */,
+				379A1B0023FECEE4007C3119 /* AppDelegate.swift in Sources */,
+				379A1B1C23FED0F6007C3119 /* MainView.swift in Sources */,
+				379A1B0223FECEE4007C3119 /* SceneDelegate.swift in Sources */,
+				373078AD23FF028A00B4BD7F /* Date+Format.swift in Sources */,
+				37745ABC2402F9AB00E98BA4 /* PauseableTimer.swift in Sources */,
+				37745AB224028BEB00E98BA4 /* RecordingService.swift in Sources */,
+				379A1B2023FED630007C3119 /* MainPresenter.swift in Sources */,
+				379A1B1E23FED508007C3119 /* MainConfigurator.swift in Sources */,
+				379A1B2223FED85C007C3119 /* MainInteractor.swift in Sources */,
+				373078A623FEEFE200B4BD7F /* AudioPlayerService.swift in Sources */,
+				379A1B2623FEDBC3007C3119 /* Constants.swift in Sources */,
+				372F00CD2404557100390F43 /* NotificationService.swift in Sources */,
+				37314401240173DA00D9C466 /* AppStateService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		372F00D824046E1900390F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 379A1AFB23FECEE4007C3119 /* iOS Coding Challenge */;
+			targetProxy = 372F00D724046E1900390F43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		379A1B0A23FECEE6007C3119 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379A1B0B23FECEE6007C3119 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		372F00DA24046E1900390F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 768NHWV893;
+				INFOPLIST_FILE = "iOS Coding ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "max.iOS-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Coding Challenge.app/iOS Coding Challenge";
+			};
+			name = Debug;
+		};
+		372F00DB24046E1900390F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 768NHWV893;
+				INFOPLIST_FILE = "iOS Coding ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "max.iOS-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Coding Challenge.app/iOS Coding Challenge";
+			};
+			name = Release;
+		};
+		379A1B0E23FECEE6007C3119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		379A1B0F23FECEE6007C3119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		379A1B1123FECEE6007C3119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B38B4A8AD14095413431211 /* Pods-iOS Coding Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iOS Coding Challenge/iOS Coding Challenge.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 768NHWV893;
+				INFOPLIST_FILE = "iOS Coding Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "max.iOS-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		379A1B1223FECEE6007C3119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AA79D910B3294884302E72 /* Pods-iOS Coding Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "iOS Coding Challenge/iOS Coding Challenge.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 768NHWV893;
+				INFOPLIST_FILE = "iOS Coding Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "max.iOS-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372F00D924046E1900390F43 /* Build configuration list for PBXNativeTarget "iOS Coding ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372F00DA24046E1900390F43 /* Debug */,
+				372F00DB24046E1900390F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379A1AF723FECEE3007C3119 /* Build configuration list for PBXProject "iOS Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379A1B0E23FECEE6007C3119 /* Debug */,
+				379A1B0F23FECEE6007C3119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379A1B1023FECEE6007C3119 /* Build configuration list for PBXNativeTarget "iOS Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379A1B1123FECEE6007C3119 /* Debug */,
+				379A1B1223FECEE6007C3119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 379A1AF423FECEE3007C3119 /* Project object */;
+}
